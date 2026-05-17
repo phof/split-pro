@@ -233,7 +233,6 @@
     },
     "expense_list": {
       "not_involved": "Nie uczestniczysz",
-      "not_set": "Nie ustawiono",
       "you_lent": "Pożyczono",
       "you_owe": "Masz do zapłacenia"
     },
@@ -413,6 +412,7 @@
     "in_group": "",
     "no_activity": "Brak aktywności",
     "not_involved": "Nie uczestniczy",
+    "not_set": "Nie ustawiono",
     "on": "dnia",
     "or": "lub",
     "outstanding_balances": "Zaległe salda",
