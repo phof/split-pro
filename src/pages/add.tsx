@@ -64,10 +64,10 @@ const AddPage: NextPageWithUser<{
       obapiProviderId: user.obapiProviderId ?? null,
       bankingId: user.bankingId ?? null,
     });
-    if (!groupId && user.defaultCurrency) {
+    if (router.isReady && !groupId && user.defaultCurrency) {
       setCurrency(parseCurrencyCode(user.defaultCurrency));
     }
-  }, [setCurrentUser, setCurrency, groupId, user]);
+  }, [setCurrentUser, setCurrency, groupId, router.isReady, user]);
 
   const _groupId = parseInt(groupId as string);
   const _friendId = parseInt(friendId as string);
