@@ -233,6 +233,7 @@
     },
     "expense_list": {
       "not_involved": "Nie uczestniczysz",
+      "not_set": "Nie ustawiono",
       "you_lent": "Pożyczono",
       "you_owe": "Masz do zapłacenia"
     },
